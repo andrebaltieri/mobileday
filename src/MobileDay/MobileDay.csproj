@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05916CB5-574E-4198-94BD-42E89E429ECC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobileDay</RootNamespace>
+    <AssemblyName>MobileDay</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Startup.js" />
+    <Content Include="app\Views\ContactView.js" />
+    <Content Include="app\Views\SupportView.js" />
+    <Content Include="app\Views\PresentationView.js" />
+    <Content Include="app\Views\CoordinateView.js" />
+    <Content Include="app\Views\CityView.js" />
+    <Content Include="app\Views\PresenteerView.js" />
+    <Content Include="app\Views\CoordinatorView.js" />
+    <Content Include="app\Views\CurrentEditionView.js" />
+    <Content Include="app\Views\HomeView.js" />
+    <Content Include="app\Views\AgendaView.js" />
+    <Content Include="app\Views\PastEditionView.js" />
+    <Content Include="content\css\animations.css" />
+    <Content Include="content\css\bootstrap.css" />
+    <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="content\css\colors\blue.css" />
+    <Content Include="content\css\colors\brown.css" />
+    <Content Include="content\css\colors\golden.css" />
+    <Content Include="content\css\colors\gray.css" />
+    <Content Include="content\css\colors\green.css" />
+    <Content Include="content\css\colors\magenta.css" />
+    <Content Include="content\css\colors\orange.css" />
+    <Content Include="content\css\colors\purple.css" />
+    <Content Include="content\css\colors\red.css" />
+    <Content Include="content\css\colors\teal.css" />
+    <Content Include="content\css\fonts\font-awesome\css\font-awesome-ie7.css" />
+    <Content Include="content\css\fonts\font-awesome\css\font-awesome-ie7.min.css" />
+    <Content Include="content\css\fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="content\css\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="content\css\fonts\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="content\css\graph.css" />
+    <Content Include="content\css\ie.css" />
+    <Content Include="content\css\nivo-slider.css" />
+    <Content Include="content\css\prettyPhoto.css" />
+    <Content Include="content\css\pricing-table.css" />
+    <Content Include="content\css\revolution-slider\assets\arrowleft.png" />
+    <Content Include="content\css\revolution-slider\assets\arrowright.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_large_left.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_large_right.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_left.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_left2.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_right.png" />
+    <Content Include="content\css\revolution-slider\assets\arrow_right2.png" />
+    <Content Include="content\css\revolution-slider\assets\black50.png" />
+    <Content Include="content\css\revolution-slider\assets\boxed_bgtile.png" />
+    <Content Include="content\css\revolution-slider\assets\bullet.png" />
+    <Content Include="content\css\revolution-slider\assets\bullets.png" />
+    <Content Include="content\css\revolution-slider\assets\bullets2.png" />
+    <Content Include="content\css\revolution-slider\assets\bullet_boxed.png" />
+    <Content Include="content\css\revolution-slider\assets\coloredbg.png" />
+    <Content Include="content\css\revolution-slider\assets\grain.png" />
+    <Content Include="content\css\revolution-slider\assets\large_left.png" />
+    <Content Include="content\css\revolution-slider\assets\large_right.png" />
+    <Content Include="content\css\revolution-slider\assets\loader.gif" />
+    <Content Include="content\css\revolution-slider\assets\loader2.gif" />
+    <Content Include="content\css\revolution-slider\assets\navigdots.png" />
+    <Content Include="content\css\revolution-slider\assets\navigdots_bgtile.png" />
+    <Content Include="content\css\revolution-slider\assets\shadow1.png" />
+    <Content Include="content\css\revolution-slider\assets\shadow2.png" />
+    <Content Include="content\css\revolution-slider\assets\shadow3.png" />
+    <Content Include="content\css\revolution-slider\assets\small_left.png" />
+    <Content Include="content\css\revolution-slider\assets\small_left_boxed.png" />
+    <Content Include="content\css\revolution-slider\assets\small_right.png" />
+    <Content Include="content\css\revolution-slider\assets\small_right_boxed.png" />
+    <Content Include="content\css\revolution-slider\assets\timer.png" />
+    <Content Include="content\css\revolution-slider\assets\timerdot.png" />
+    <Content Include="content\css\revolution-slider\assets\transparent.jpg" />
+    <Content Include="content\css\revolution-slider\assets\white50.png" />
+    <Content Include="content\css\revolution-slider\css\settings.css" />
+    <Content Include="content\css\revolution-slider\images\decor_inside.png" />
+    <Content Include="content\css\revolution-slider\images\decor_inside_white.png" />
+    <Content Include="content\css\revolution-slider\images\decor_testimonial.png" />
+    <Content Include="content\css\revolution-slider\images\gradient\g30.png" />
+    <Content Include="content\css\revolution-slider\images\gradient\g40.png" />
+    <Content Include="content\css\spectrum.css" />
+    <Content Include="content\css\style.css" />
+    <Content Include="content\css\superfish.css" />
+    <Content Include="content\css\switcher.css" />
+    <Content Include="content\css\team-member.css" />
+    <Content Include="content\css\theme-responsive.css" />
+    <Content Include="content\img\ads-small.jpg" />
+    <Content Include="content\img\bg_off.png" />
+    <Content Include="content\img\blog\blog-post1.jpg" />
+    <Content Include="content\img\clientslogo\logo-1.jpg" />
+    <Content Include="content\img\clientslogo\sismat.jpg" />
+    <Content Include="content\img\contact-map.png" />
+    <Content Include="content\img\dark_wood.png" />
+    <Content Include="content\img\fifo-small.jpg" />
+    <Content Include="content\img\glyphicons-halflings-white.png" />
+    <Content Include="content\img\glyphicons-halflings.png" />
+    <Content Include="content\img\ico\apple-touch-icon-114.png" />
+    <Content Include="content\img\ico\apple-touch-icon-144.png" />
+    <Content Include="content\img\ico\apple-touch-icon-57.png" />
+    <Content Include="content\img\ico\apple-touch-icon-72.png" />
+    <Content Include="content\img\ico\apple-touch-icon.png" />
+    <Content Include="content\img\ico\favicon.ico" />
+    <Content Include="content\img\img-bg-blur.jpg" />
+    <Content Include="content\img\loader.gif" />
+    <Content Include="content\img\logo.png" />
+    <Content Include="content\img\patterns\dark_wood.png" />
+    <Content Include="content\img\patterns\debut_dark.png" />
+    <Content Include="content\img\patterns\denim.png" />
+    <Content Include="content\img\patterns\fabrics_gray.png" />
+    <Content Include="content\img\patterns\grey_wash.png" />
+    <Content Include="content\img\patterns\lghtmesh.png" />
+    <Content Include="content\img\patterns\retina_wood.png" />
+    <Content Include="content\img\patterns\roughcloth.png" />
+    <Content Include="content\img\patterns\subtle_grunge.png" />
+    <Content Include="content\img\patterns\textured_paper.png" />
+    <Content Include="content\img\patterns\tileable_wood.png" />
+    <Content Include="content\img\patterns\wall.png" />
+    <Content Include="content\img\patterns\whitey.png" />
+    <Content Include="content\img\placeholder-img.jpg" />
+    <Content Include="content\img\portfolio\img-portfolio.jpg" />
+    <Content Include="content\img\portfolio\single-portfolio-image.jpg" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._btnNext.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._contentPattern.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\._btnNext.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\._btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\._contentPattern.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\._default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\dark_square\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\dark_square\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="content\img\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="content\img\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="content\img\prettyPhoto\default\._default_thumb.png" />
+    <Content Include="content\img\prettyPhoto\default\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\default\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\default\._sprite_next.png" />
+    <Content Include="content\img\prettyPhoto\default\._sprite_prev.png" />
+    <Content Include="content\img\prettyPhoto\default\._sprite_x.png" />
+    <Content Include="content\img\prettyPhoto\default\._sprite_y.png" />
+    <Content Include="content\img\prettyPhoto\default\default_thumb.png" />
+    <Content Include="content\img\prettyPhoto\default\loader.gif" />
+    <Content Include="content\img\prettyPhoto\default\sprite.png" />
+    <Content Include="content\img\prettyPhoto\default\sprite_next.png" />
+    <Content Include="content\img\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="content\img\prettyPhoto\default\sprite_x.png" />
+    <Content Include="content\img\prettyPhoto\default\sprite_y.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._btnNext.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._contentPatternBottom.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._contentPatternLeft.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._contentPatternRight.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._contentPatternTop.png" />
+    <Content Include="content\img\prettyPhoto\facebook\._default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\facebook\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\facebook\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="content\img\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="content\img\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="content\img\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="content\img\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="content\img\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\facebook\loader.gif" />
+    <Content Include="content\img\prettyPhoto\facebook\sprite.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\._btnNext.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\._btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\._default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\light_rounded\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\light_rounded\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="content\img\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="content\img\prettyPhoto\light_square\._btnNext.png" />
+    <Content Include="content\img\prettyPhoto\light_square\._btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\light_square\._default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\light_square\._loader.gif" />
+    <Content Include="content\img\prettyPhoto\light_square\._sprite.png" />
+    <Content Include="content\img\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="content\img\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="content\img\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="content\img\prettyPhoto\light_square\loader.gif" />
+    <Content Include="content\img\prettyPhoto\light_square\sprite.png" />
+    <Content Include="content\img\recent-post-img.jpg" />
+    <Content Include="content\img\search-icon.png" />
+    <Content Include="content\img\slider\responsive-imac.png" />
+    <Content Include="content\img\slider\responsive-ipad.png" />
+    <Content Include="content\img\slider\responsive-iphone.png" />
+    <Content Include="content\img\slider\slider-bg-1.jpg" />
+    <Content Include="content\img\slider\slider-bg-2.jpg" />
+    <Content Include="content\img\team\andrebaltieri.png" />
+    <Content Include="content\img\team\team-member.jpg" />
+    <Content Include="content\img\team\team.jpg" />
+    <Content Include="content\js\backbone-min.js" />
+    <Content Include="content\js\bootstrap.js" />
+    <Content Include="content\js\circularnav.js" />
+    <Content Include="content\js\custom.js" />
+    <Content Include="content\js\imagesloaded.pkgd.min.js" />
+    <Content Include="content\js\jflickrfeed.js" />
+    <Content Include="content\js\jquery.cookie.js" />
+    <Content Include="content\js\jquery.easing.1.3.js" />
+    <Content Include="content\js\jquery.gmap.min.js" />
+    <Content Include="content\js\jquery.isotope.js" />
+    <Content Include="content\js\jquery.min.js" />
+    <Content Include="content\js\jquery.nivo.slider.pack.js" />
+    <Content Include="content\js\jquery.parallax.js" />
+    <Content Include="content\js\jquery.prettyPhoto.js" />
+    <Content Include="content\js\jquery.sticky.js" />
+    <Content Include="content\js\modernizr-2.6.2.min.js" />
+    <Content Include="content\js\modernizr.custom.04022.js" />
+    <Content Include="content\js\portfolio.js" />
+    <Content Include="content\js\respond.min.js" />
+    <Content Include="content\js\revolution-slider\assets\arrowleft.png" />
+    <Content Include="content\js\revolution-slider\assets\arrowright.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_large_left.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_large_right.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_left.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_left2.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_right.png" />
+    <Content Include="content\js\revolution-slider\assets\arrow_right2.png" />
+    <Content Include="content\js\revolution-slider\assets\black50.png" />
+    <Content Include="content\js\revolution-slider\assets\boxed_bgtile.png" />
+    <Content Include="content\js\revolution-slider\assets\bullet.png" />
+    <Content Include="content\js\revolution-slider\assets\bullets.png" />
+    <Content Include="content\js\revolution-slider\assets\bullets2.png" />
+    <Content Include="content\js\revolution-slider\assets\bullet_boxed.png" />
+    <Content Include="content\js\revolution-slider\assets\coloredbg.png" />
+    <Content Include="content\js\revolution-slider\assets\grain.png" />
+    <Content Include="content\js\revolution-slider\assets\large_left.png" />
+    <Content Include="content\js\revolution-slider\assets\large_right.png" />
+    <Content Include="content\js\revolution-slider\assets\loader.gif" />
+    <Content Include="content\js\revolution-slider\assets\loader2.gif" />
+    <Content Include="content\js\revolution-slider\assets\navigdots.png" />
+    <Content Include="content\js\revolution-slider\assets\navigdots_bgtile.png" />
+    <Content Include="content\js\revolution-slider\assets\shadow1.png" />
+    <Content Include="content\js\revolution-slider\assets\shadow2.png" />
+    <Content Include="content\js\revolution-slider\assets\shadow3.png" />
+    <Content Include="content\js\revolution-slider\assets\small_left.png" />
+    <Content Include="content\js\revolution-slider\assets\small_left_boxed.png" />
+    <Content Include="content\js\revolution-slider\assets\small_right.png" />
+    <Content Include="content\js\revolution-slider\assets\small_right_boxed.png" />
+    <Content Include="content\js\revolution-slider\assets\timer.png" />
+    <Content Include="content\js\revolution-slider\assets\timerdot.png" />
+    <Content Include="content\js\revolution-slider\assets\transparent.jpg" />
+    <Content Include="content\js\revolution-slider\assets\white50.png" />
+    <Content Include="content\js\revolution-slider\css\settings-ie8.css" />
+    <Content Include="content\js\revolution-slider\css\settings.css" />
+    <Content Include="content\js\revolution-slider\images\decor_inside.png" />
+    <Content Include="content\js\revolution-slider\images\decor_inside_white.png" />
+    <Content Include="content\js\revolution-slider\images\decor_testimonial.png" />
+    <Content Include="content\js\revolution-slider\images\gradient\g30.png" />
+    <Content Include="content\js\revolution-slider\images\gradient\g40.png" />
+    <Content Include="content\js\revolution-slider\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="content\js\revolution-slider\pluginsources\jquery.themepunch.plugins.min.js" />
+    <Content Include="content\js\revolution-slider\pluginsources\jquery.themepunch.revolution.js" />
+    <Content Include="content\js\revolution-slider\videojs\font\vjs.svg" />
+    <Content Include="content\js\revolution-slider\videojs\video-js.png" />
+    <Content Include="content\js\revolution-slider\videojs\video-js.swf" />
+    <Content Include="content\js\revolution-slider\videojs\video.js" />
+    <Content Include="content\js\superfish.js" />
+    <Content Include="content\js\tweetMachine.js" />
+    <Content Include="content\js\tytabs.js" />
+    <Content Include="content\js\underscore-min.js" />
+    <Content Include="content\js\waypoints.min.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="content\css\fonts\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="content\css\fonts\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="content\css\fonts\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="content\css\fonts\font-awesome\font\FontAwesome.otf" />
+    <Content Include="content\css\fonts\font-awesome\less\bootstrap.less" />
+    <Content Include="content\css\fonts\font-awesome\less\core.less" />
+    <Content Include="content\css\fonts\font-awesome\less\extras.less" />
+    <Content Include="content\css\fonts\font-awesome\less\font-awesome-ie7.less" />
+    <Content Include="content\css\fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="content\css\fonts\font-awesome\less\icons.less" />
+    <Content Include="content\css\fonts\font-awesome\less\mixins.less" />
+    <Content Include="content\css\fonts\font-awesome\less\path.less" />
+    <Content Include="content\css\fonts\font-awesome\less\variables.less" />
+    <Content Include="content\css\fonts\font-awesome\scss\font-awesome-ie7.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_bootstrap.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_core.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_extras.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_path.scss" />
+    <Content Include="content\css\fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="content\css\revolution-slider\assets\arrows.psd" />
+    <Content Include="content\css\revolution-slider\assets\bullets.psd" />
+    <Content Include="content\css\revolution-slider\assets\small_arrows.psd" />
+    <Content Include="content\css\revolution-slider\css\.DS_Store" />
+    <Content Include="content\img\ico\Thumbs.db" />
+    <Content Include="content\js\revolution-slider\assets\arrows.psd" />
+    <Content Include="content\js\revolution-slider\assets\bullets.psd" />
+    <Content Include="content\js\revolution-slider\assets\small_arrows.psd" />
+    <Content Include="content\js\revolution-slider\videojs\demo.captions.vtt" />
+    <Content Include="content\js\revolution-slider\videojs\font\vjs.eot" />
+    <Content Include="content\js\revolution-slider\videojs\font\vjs.ttf" />
+    <Content Include="content\js\revolution-slider\videojs\font\vjs.woff" />
+    <Content Include="content\img\portfolio\Thumbs.db" />
+    <Content Include="content\img\slider\Thumbs.db" />
+    <Content Include="content\img\team\Thumbs.db" />
+    <Content Include="content\img\blog\Thumbs.db" />
+    <Content Include="content\img\patterns\Thumbs.db" />
+    <Content Include="content\img\prettyPhoto\dark_rounded\Thumbs.db" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Sponsors.cshtml" />
+    <None Include="Properties\PublishProfiles\mobileday - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\mobileday - Web Deploy.pubxml" />
+    <Content Include="Views\Shared\Templates\_HomeViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_PastEditionViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_CurrentEditionViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_AgendaViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_CityViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_ContactViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_CoordinateViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_CoordinatorViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_PresentationViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_PresenteerViewTemplate.cshtml" />
+    <Content Include="Views\Shared\Templates\_SupportViewTemplate.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33854</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1327/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

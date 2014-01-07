@@ -1,0 +1,63 @@
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\MobileDay.dll.config
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\MobileDay.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\MobileDay.pdb
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\Antlr3.Runtime.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\Newtonsoft.Json.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Net.Http.Formatting.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Helpers.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Http.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Http.WebHost.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Mvc.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Optimization.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Razor.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.Razor.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\WebGrease.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Helpers.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Mvc.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Optimization.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Razor.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.WebPages.Razor.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\Newtonsoft.Json.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\Antlr3.Runtime.pdb
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Net.Http.Formatting.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Http.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\bin\System.Web.Http.WebHost.xml
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\obj\Debug\MobileDay.csprojResolveAssemblyReference.cache
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\obj\Debug\MobileDay.dll
+C:\Users\andrebaltieri\Documents\Visual Studio 2013\Projects\MobileDay\MobileDay\obj\Debug\MobileDay.pdb
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\MobileDay.dll.config
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\MobileDay.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\MobileDay.pdb
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\Antlr3.Runtime.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\Microsoft.Web.Infrastructure.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\Newtonsoft.Json.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Net.Http.Formatting.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Helpers.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Http.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Http.WebHost.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Mvc.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Optimization.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Razor.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.Deployment.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.Razor.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\WebGrease.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Helpers.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Mvc.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Optimization.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Razor.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.Deployment.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.WebPages.Razor.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\Newtonsoft.Json.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\Antlr3.Runtime.pdb
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Net.Http.Formatting.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Http.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\bin\System.Web.Http.WebHost.xml
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\obj\Debug\MobileDay.dll
+C:\Development\repository\andrebaltieri\mobileday\src\MobileDay\obj\Debug\MobileDay.pdb
