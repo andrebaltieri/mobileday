@@ -219,6 +219,7 @@
     <Content Include="content\img\clientslogo\logo-1.jpg" />
     <Content Include="content\img\clientslogo\sismat.jpg" />
     <Content Include="content\img\contact-map.png" />
+    <Content Include="content\img\currentedition\2014.png" />
     <Content Include="content\img\dark_wood.png" />
     <Content Include="content\img\fifo-small.jpg" />
     <Content Include="content\img\glyphicons-halflings-white.png" />
@@ -232,6 +233,8 @@
     <Content Include="content\img\img-bg-blur.jpg" />
     <Content Include="content\img\loader.gif" />
     <Content Include="content\img\logo.png" />
+    <Content Include="content\img\pasteditions\2011.png" />
+    <Content Include="content\img\pasteditions\2012.png" />
     <Content Include="content\img\patterns\dark_wood.png" />
     <Content Include="content\img\patterns\debut_dark.png" />
     <Content Include="content\img\patterns\denim.png" />
