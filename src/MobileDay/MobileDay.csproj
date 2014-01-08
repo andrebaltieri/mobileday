@@ -473,6 +473,7 @@
     <Content Include="content\img\blog\Thumbs.db" />
     <Content Include="content\img\patterns\Thumbs.db" />
     <Content Include="content\img\prettyPhoto\dark_rounded\Thumbs.db" />
+    <Content Include="content\files\mobileday.rar" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
