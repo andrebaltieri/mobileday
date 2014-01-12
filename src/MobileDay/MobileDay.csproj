@@ -217,6 +217,7 @@
     <Content Include="content\img\blog\blog-post1.jpg" />
     <Content Include="content\img\clientslogo\markup.jpg" />
     <Content Include="content\img\clientslogo\logo-1.jpg" />
+    <Content Include="content\img\clientslogo\pluralsight.jpg" />
     <Content Include="content\img\clientslogo\sismat.jpg" />
     <Content Include="content\img\contact-map.png" />
     <Content Include="content\img\currentedition\2014.png" />
