@@ -40,7 +40,9 @@ router.on('route:presenteers', function () {
 });
 
 router.on('route:cities', function (city) {
-    var view = new CityView();
+    // var entity = cities.where({ tag: city });
+    var entity = cities.search({ tag: city });
+    var view = new CityView({ model: entity });
 });
 
 router.on('route:coordinate', function () {

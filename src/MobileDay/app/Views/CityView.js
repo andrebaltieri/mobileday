@@ -3,8 +3,8 @@
     initialize: function () {
         this.render();
     },
+    template: _.template($("#city_template").html()),
     render: function () {
-        var template = _.template($("#city_template").html(), {});
-        this.$el.html(template);
+        $(this.el).html(this.template(this.model.toJSON()[0]));
     }
 });

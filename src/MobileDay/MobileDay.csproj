@@ -132,6 +132,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Collections\CityCollection.js" />
+    <Content Include="app\Data.js" />
+    <Content Include="app\Model\CityModel.js" />
     <Content Include="app\Startup.js" />
     <Content Include="app\Views\ContactView.js" />
     <Content Include="app\Views\SupportView.js" />
